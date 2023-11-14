@@ -66,7 +66,7 @@ let checkNewEmails = async () => {
           to: fromEmail,
           from: "tanishqtiwari463@gmail.com",
           subject: "subject",
-          text: "I'll get back to you.",
+          text: "Currently away, will respond ASAP. Thanks for your patience!",
         });
   
         mail.compile().build((err, message) => {
